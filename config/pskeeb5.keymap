@@ -49,6 +49,21 @@
             // global-quick-tap;
             bindings = <&mo>, <&kp>;
         };
+        td12: tap_dance_12 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "Tap 1 / Double 2";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N1>, <&kp N2>;
+        };
+
+        td34: tap_dance_34 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "Tap 3 / Double 4";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N3>, <&kp N4>;
+        };
         rot_msc: sensor_rotate_msc {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
