@@ -6,7 +6,10 @@ manifest:
   projects:
     - name: zmk
       remote: personal
-      revision: main
+      revision: 88f3f2e755cc3a1953cf179d24ca48d7b840bca3
       import: app/west.yml
+    - name: kb_zmk_ps2_mouse_trackpoint_driver
+      remote: personal
+      revision: 5b57068a6454fe5f70a6d376af381ea34c3068a7
   self:
     path: config
