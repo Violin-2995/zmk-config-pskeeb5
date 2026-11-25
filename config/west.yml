@@ -8,8 +8,5 @@ manifest:
       remote: personal
       revision: main
       import: app/west.yml
-    - name: kb_zmk_ps2_mouse_trackpoint_driver
-      remote: personal
-      revision: main
   self:
     path: config
